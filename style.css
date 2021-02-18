@@ -1,0 +1,107 @@
+/* Colors and fonts */
+.img-circle{
+	border-radius: 50%
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+#titre{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+body{
+	background: #FCF8F3;
+	color: #1E212D;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1{
+	color: #1E212D;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #E97878;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	color: #2C061F;
+	font-weight: bold;
+}
+a:hover{
+	color:  #80FFDB;
+}
+
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-blue{
+	background-color: #E97878;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: #80FFDB;
+	color: black;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
